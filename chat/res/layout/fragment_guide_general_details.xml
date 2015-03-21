@@ -1,0 +1,148 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccffffff"
+    android:orientation="vertical">
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+               
+			<LinearLayout
+           		android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_margin="10dp"
+            	android:orientation="horizontal" >
+            
+             	<TextView
+                 	android:layout_width="70dp"
+                 	android:layout_height="wrap_content"
+                 	android:text="日にち" 
+                 	android:textSize="20sp"
+                 	android:textColor="#717071" />
+             	
+             	<TextView
+                	android:id="@+id/textView_day"
+                 	android:layout_width="0dp"
+                 	android:layout_height="wrap_content"
+                 	android:layout_weight="1"
+                 	android:text="2014.7.4" />
+			</LinearLayout>
+		
+			<View
+	        	android:layout_width="match_parent"
+	      		android:layout_height="1dp"
+	      		android:layout_margin="5dp"
+	       		android:background="#C9C9CA"/>
+			
+			<LinearLayout
+           		android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:padding="10dp"
+            	android:orientation="horizontal" >
+		    	
+				<TextView
+                 	android:layout_width="70dp"
+                 	android:layout_height="wrap_content"
+                 	android:text="ホテル" 
+                 	android:textSize="20sp"
+                 	android:textColor="#717071" />
+				
+				<LinearLayout
+				    android:layout_width="match_parent"
+            		android:layout_height="wrap_content"
+            		android:orientation="vertical">
+            		
+					<TextView
+			        	android:id="@+id/textView_hotel_name"
+			        	android:layout_width="match_parent"
+			        	android:layout_height="wrap_content"
+			        	android:padding="5dp"
+			        	android:text="" />
+			    	
+			    	<TextView
+			        	android:id="@+id/textView_check_in"
+			        	android:layout_width="match_parent"
+			        	android:layout_height="wrap_content"
+			        	android:padding="5dp"
+			        	android:text="" />
+			    	
+			    	<TextView
+			        	android:id="@+id/textView_check_out"
+			        	android:layout_width="match_parent"
+			        	android:layout_height="wrap_content"
+			        	android:padding="5dp"
+			        	android:text="" />
+			    	
+			    	<TextView
+			        	android:id="@+id/textView_post_code"
+			        	android:layout_width="match_parent"
+			        	android:layout_height="wrap_content"
+			        	android:padding="5dp"
+			        	android:text="" />
+			    	
+			    	<TextView
+				        android:id="@+id/textView_address"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:padding="5dp"
+				        android:text="" />
+			    	
+			    	<TextView
+			        	android:id="@+id/textView_sample_rate"
+			        	android:layout_width="match_parent"
+			        	android:layout_height="wrap_content"
+			        	android:padding="5dp"
+			        	android:text="" />
+			    	
+			    	<TextView
+			        	android:id="@+id/button_url"
+			        	android:layout_width="match_parent"
+			       		android:layout_height="wrap_content"
+			        	android:padding="5dp"
+			        	android:textColor="#00ffff"
+			        	android:text="@string/underline" />
+				    
+				</LinearLayout>
+				
+			</LinearLayout>
+			
+			<View
+	        	android:layout_width="match_parent"
+	      		android:layout_height="1dp"
+	       		android:layout_margin="5dp"
+	       		android:background="#C9C9CA"/>
+			
+			<LinearLayout 
+           		android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_margin="10dp"
+            	android:orientation="horizontal" >
+				
+			    <TextView
+                 	android:layout_width="70dp"
+                 	android:layout_height="wrap_content"
+                 	android:text="メモ" 
+                 	android:textSize="20sp"
+                 	android:textColor="#717071" />
+
+			    <TextView
+		        	android:id="@+id/textView_memo"
+		        	android:layout_width="match_parent"
+		        	android:layout_height="wrap_content"
+		        	android:padding="5dp"
+		        	android:text=""
+		        	android:background="#ffffff" />
+			    
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>          
+</LinearLayout>

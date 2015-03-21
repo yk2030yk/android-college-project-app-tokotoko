@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+   <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="50dp"
+    	android:background="#99778899"
+    	android:orientation="horizontal">
+    	
+         <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	    	android:orientation="vertical">
+	
+	        <TextView
+	            android:id="@+id/textView_tab1"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:gravity="center"
+	            android:layout_weight="1"
+	            android:textColor="#ffffff"
+	            android:text="グルメ" />
+	        
+	        <View
+	            android:id="@+id/underline1"
+	            android:layout_width="match_parent" 
+	            android:layout_height="2dp"
+	            android:background="@color/line_unselected"/>
+	   	</LinearLayout>
+        
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#2e8b57"/>
+        
+        <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	    	android:orientation="vertical">
+	
+	        <TextView
+	            android:id="@+id/textView_tab2"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:gravity="center"
+	            android:layout_weight="1"
+	            android:textColor="#ffffff"
+	            android:text="宿" />
+	        
+	        <View
+	            android:id="@+id/underline2"
+	            android:layout_width="match_parent" 
+	            android:layout_height="2dp"
+	            android:background="@color/line_unselected"/>
+	   	</LinearLayout>
+        
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#2e8b57"/>
+        
+        <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	    	android:orientation="vertical">
+	
+	        <TextView
+	            android:id="@+id/textView_tab3"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:gravity="center"
+	            android:layout_weight="1"
+	            android:textColor="#ffffff"
+	            android:text="観光地" />
+	        
+	        <TextView
+	            android:id="@+id/underline3"
+	            android:layout_width="match_parent" 
+	            android:layout_height="2dp"
+	            android:background="@color/line_unselected"/>
+	   	</LinearLayout>
+        
+    </LinearLayout>
+    
+    <android.support.v4.view.ViewPager
+  		android:id="@+id/pager_favorite"
+  		android:layout_width="match_parent"
+  		android:layout_height="match_parent"
+  		android:layout_weight="1"/>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:orientation="vertical"
+	    android:background="@color/button_back">	
+		
+		<Button
+	    	android:id="@+id/button_create"
+	    	android:layout_width="match_parent"
+	 		android:layout_height="match_parent"
+	 		android:background="@drawable/button_shape4"
+	   		android:text="選んだスポットでルートを作成"/>
+		
+	</LinearLayout>
+    
+</LinearLayout>

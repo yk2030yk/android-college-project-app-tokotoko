@@ -1,0 +1,54 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_clear_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:layout_margin="3dp"
+        android:textColor="#f0f0f0"
+        android:text="チャットを初期化" />
+    
+    <Button
+        android:id="@+id/button_clear_spot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:layout_margin="3dp"
+        android:textColor="#f0f0f0"
+        android:text="観光地情報を初期化" />
+    
+    <Button
+        android:id="@+id/button_clear_favorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:layout_margin="3dp"
+        android:textColor="#f0f0f0"
+        android:text="お気に入りを初期化" />
+    
+    <Button
+        android:id="@+id/button_onoff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:layout_margin="3dp"
+        android:textColor="#f0f0f0"
+        android:text="通知のON/OFF" />
+    
+    <Button
+        android:id="@+id/button_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:layout_margin="3dp"
+        android:textColor="#f0f0f0"
+        android:text="テスト用" />
+    
+</LinearLayout>

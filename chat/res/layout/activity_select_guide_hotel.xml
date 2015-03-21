@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:background="#b0c4de" >
+	    
+        <Button
+		    android:id="@+id/button_mode1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_weight="1"
+		    android:layout_margin="3dp"
+		    android:textSize="12sp"
+		    android:background="@drawable/button_shape"
+		    android:text="お気に入りから探す" />
+	    
+		<Button
+		    android:id="@+id/button_mode2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_weight="1"
+		    android:layout_margin="3dp"
+		    android:textSize="12sp"
+		    android:background="@drawable/button_shape"
+		    android:text="検索から探す" />
+	</LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/layout_search"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+    
+</LinearLayout>

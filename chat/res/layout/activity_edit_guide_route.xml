@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back" >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+    		android:id="@+id/layout_main"
+    		android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:orientation="vertical">
+    	</LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:orientation="vertical"
+	    android:background="@color/button_back">	
+		
+		<Button
+	    	android:id="@+id/button_finish"
+	    	android:layout_width="match_parent"
+	 		android:layout_height="match_parent"
+	 		android:background="@drawable/button_shape4"
+	   		android:text="編集終了"/>
+		
+	</LinearLayout>
+   
+</LinearLayout>

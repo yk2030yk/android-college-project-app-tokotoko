@@ -1,0 +1,102 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical" >
+    
+    <View
+        android:layout_width="match_parent"
+    	android:layout_height="0dp">
+    	<requestFocus/>
+    </View>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+    	
+    	<TextView
+        	android:id="@+id/textView_info"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:textColor="#ff0000"
+        	android:text="" />
+    
+    	<TextView
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="10dp"
+        	android:padding="10dp"
+        	android:imeOptions="actionDone"
+        	android:background="#909090"
+        	android:text="ユーザー名" />
+   
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textImeMultiLine"
+            android:padding="10dp"
+            android:ems="10"
+            android:textSize="18sp"
+        	android:background="#f0f0f0"/>
+        
+    	<TextView
+        	android:id="@+id/textView_myid"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="20dp"
+        	android:padding="10dp"
+        	android:background="#909090"
+        	android:text="ユーザーID(登録後変更できません)" />
+    
+        <EditText
+           	android:id="@+id/editText_myid"
+           	android:layout_width="match_parent"
+           	android:layout_height="match_parent"
+           	android:inputType="textImeMultiLine"
+           	android:padding="10dp"
+           	android:ems="10"
+           	android:textSize="18sp"
+           	android:hint="半角英数字のみ"
+        	android:background="#f0f0f0"/>
+	</LinearLayout>
+        
+        <View
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"/>
+	<LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="50dp"
+    	android:orientation="horizontal"
+    	android:background="@color/button_back">
+
+        <Button
+            android:id="@+id/button_sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:textColor="#f0f0f0"
+            android:textSize="12sp"
+            android:background="@drawable/button_shape"
+            android:text="登録する" />
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:textColor="#f0f0f0"
+            android:textSize="12sp"
+            android:background="@drawable/button_shape"
+            android:text="戻る" />
+              
+    </LinearLayout>
+          
+</LinearLayout>
