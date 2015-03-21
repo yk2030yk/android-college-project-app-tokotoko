@@ -548,5 +548,5 @@ public class ChatActivity extends Activity {
 	    	return "<font color=" + color + ">" + str + "</font>";
 	    }
     }
-       
+     
 }
