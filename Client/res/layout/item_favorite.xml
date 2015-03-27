@@ -1,0 +1,40 @@
+<LinearLayout
+    android:id="@+id/chat_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+	<ImageView
+		android:id="@+id/item_favorite_image"
+	    android:layout_width="60dp"
+	    android:layout_height="60dp"
+	    android:layout_margin="5dp"
+	    android:padding="2dp"
+	    android:src="@drawable/icon_load"
+	    android:background="@drawable/image_shape" />
+
+	<TextView
+	    android:id="@+id/item_favorite_content"
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:layout_weight="1"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:textColor="#000000"
+	    android:textSize="20sp"
+	    android:text="" />
+
+	<TextView
+	    android:id="@+id/item_favorite_del"
+	    android:layout_width="40dp"
+	    android:layout_height="match_parent"
+	    android:padding="10dp"
+	    android:gravity="center"
+	    android:textSize="25sp"
+	    android:background="@drawable/button_shape2"
+	    android:textColor="#ffffff"
+	    android:text="×" />
+       
+</LinearLayout>

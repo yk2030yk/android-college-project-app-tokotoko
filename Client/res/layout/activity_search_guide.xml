@@ -1,0 +1,156 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical"
+    tools:context=".ChatActivity" >
+    
+    <LinearLayout 
+	    	android:layout_width="match_parent"
+	    	android:layout_height="50dp"
+	    	android:orientation="horizontal"
+	    	android:background="#99778899">
+        	
+		    <TextView
+		        android:layout_width="match_parent"
+	    		android:layout_height="50dp"
+	    		android:layout_weight="1"
+	    		android:gravity="center"
+	    		android:textColor="#ffffff"
+	    		android:textSize="18sp"
+		        android:text="しおり検索"/>
+	    </LinearLayout>
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+		   	<View
+		      	android:layout_width="match_parent"
+		     	android:layout_height="0dp" >
+		       	<requestFocus />
+		    </View>
+		
+		    <EditText
+		        android:id="@+id/editText1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/input_shape"
+		        android:layout_margin="5dp"
+		        android:padding="10dp"
+		        android:textSize="20sp"
+		        android:ems="10" />
+		
+		    <Spinner
+		        android:id="@+id/spinner_season"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="30sp"
+		        android:layout_margin="5dp"
+		        android:padding="5dp" />
+		    
+		    <Spinner
+		        android:id="@+id/spinner_stay"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="30sp"
+		        android:layout_margin="5dp"
+		        android:padding="5dp" />
+		    
+		    <Button
+		        android:id="@+id/button1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/button_shape3"
+		        android:layout_margin="5dp"
+		        android:textColor="#ffffff"
+		        android:text="検索" />
+		    
+		    <TextView
+				android:id="@+id/textView1"
+		 	    android:layout_width="wrap_content"
+		  	    android:layout_height="wrap_content"
+		  	    android:padding="5dp"
+		 	    android:gravity="center"
+		        android:text="旬のおすすめ特集"
+				android:textSize="20sp" />
+                    
+            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="5dp"
+	            android:orientation="vertical" >
+			
+			    <ImageView
+			        android:id="@+id/imageButton1"
+			        android:layout_width="match_parent"
+			        android:layout_height="150dp"
+			        android:src="@drawable/search_11" />
+			
+			    <TextView
+			        android:id="@+id/textView2"
+			        android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:padding="2dp"
+			        android:text="・冬の京都散策" />
+		    </LinearLayout>
+		    
+            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="5dp"
+	            android:orientation="vertical" >
+		
+			    <ImageView
+			        android:id="@+id/imageButton4"
+			        android:layout_width="match_parent"
+			        android:layout_height="150dp"
+			        android:src="@drawable/search_22" />
+			    
+			    <TextView
+			        android:id="@+id/textView6"
+			        android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:padding="2dp"
+			        android:text="・夜の京都巡り" />
+		    </LinearLayout>
+		    		    
+            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="5dp"
+	            android:orientation="vertical" >
+		
+			    <ImageView
+			        android:id="@+id/imageButton2"
+			        android:layout_width="match_parent"
+			        android:layout_height="150dp"
+			        android:src="@drawable/search_33" />
+			    
+			    <TextView
+			        android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:padding="2dp"
+			        android:text="・観光地散策コース" />
+		    </LinearLayout>
+
+		    <View
+		       	android:layout_width="match_parent"
+				android:layout_height="30dp"
+					/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

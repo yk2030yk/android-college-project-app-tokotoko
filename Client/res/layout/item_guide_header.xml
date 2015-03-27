@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="#bb696969">
+  
+   	<TextView
+       	android:id="@+id/textView1"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:layout_weight="1"
+       	android:gravity="center"
+       	android:textSize="18sp"
+       	android:textColor="#ffffff"
+       	android:layout_margin="5dp"
+       	android:text="" />
+   	
+   	<LinearLayout
+   	    android:id="@+id/linearLayout2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:padding="2dp"
+	    android:background="@drawable/menu_button">
+	    
+	   	<ImageView
+	   	    android:layout_width="wrap_content"
+	   	    android:layout_height="wrap_content"
+	   	    android:src="@drawable/icon_map" />
+	   	
+   	</LinearLayout>
+   	
+   	<LinearLayout
+   	    android:id="@+id/linearLayout3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:padding="2dp"
+	    android:background="@drawable/menu_button">
+	    
+	   	<ImageView
+	   	    android:layout_width="wrap_content"
+	   	    android:layout_height="wrap_content"
+	   	    android:src="@drawable/icon_add2" />
+	   	
+   	</LinearLayout>
+   	
+   	<LinearLayout
+   	    android:id="@+id/linearLayout4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:padding="2dp"
+	    android:background="@drawable/menu_button">
+	    
+	   	<ImageView
+	   	    android:id="@+id/imageView4"
+	   	    android:layout_width="wrap_content"
+	   	    android:layout_height="wrap_content"
+	   	    android:src="@drawable/ic_edit2" />
+	   	
+   	</LinearLayout>
+
+
+</LinearLayout>

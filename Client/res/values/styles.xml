@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+    
+    <style name="AppTheme2" parent="@android:style/Theme.Holo.Light"></style>
+    
+    <style name="AppTheme3" parent="AppBaseTheme">
+        
+    </style>
+    
+    <style name="LoadingDialogTheme" parent="@android:style/Theme.Light">
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:windowBackground">@android:color/transparent</item>
+	</style>
+	
+</resources>

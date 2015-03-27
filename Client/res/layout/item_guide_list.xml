@@ -1,0 +1,52 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <FrameLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="6dp"
+    	android:gravity="center"
+    	android:background="@drawable/item_my_guide" >
+    	
+        <ImageView
+			android:id="@+id/imageView1"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:padding="5dp" 
+			android:layout_gravity="center|end"
+			/>
+    	
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:padding="5dp" >
+	    
+			<TextView
+			    android:id="@+id/textView_name"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:gravity="start|center"
+			    android:layout_marginBottom="5dp"
+			    android:textSize="25sp"
+			    android:textColor="#b8860b"
+			    android:text=""/>
+				
+			<TextView
+			    android:id="@+id/textView_date"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:padding="8dp"
+			    android:background="#b0c4de"
+			    android:textColor="#ffffff"
+			    android:textSize="13sp"
+			    android:text="" />
+		</LinearLayout>
+	</FrameLayout>
+       
+</FrameLayout>

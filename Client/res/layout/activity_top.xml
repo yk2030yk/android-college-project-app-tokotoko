@@ -1,0 +1,61 @@
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back" >
+    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="@drawable/icon_top2">
+        
+	</LinearLayout>
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#99f0f0f0" 
+	    android:orientation="vertical">
+	
+	    <ListView
+	        android:id="@+id/listView_group"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1" >
+	    </ListView>
+	    
+	    <LinearLayout 
+	    	android:layout_width="match_parent"
+	    	android:layout_height="50dp"
+	    	android:orientation="horizontal"
+	    	android:background="@color/button_back">
+	
+	        <Button
+	            android:id="@+id/button_sign_up"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="3dp"
+	            android:layout_weight="1"
+	            android:textColor="#000000"
+	            android:textSize="12sp"
+	            android:background="@drawable/button_shape"
+	            android:text="アカウント情報" />
+	
+	        <Button
+	            android:id="@+id/button_setting"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:layout_margin="3dp"
+	            android:textColor="#000000"
+	            android:textSize="12sp"
+	            android:background="@drawable/button_shape"
+	            android:text="設定" />
+	              
+	    </LinearLayout>
+	    
+	</LinearLayout>
+
+</FrameLayout>

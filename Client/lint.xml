@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility">
+        <ignore path="src/com/example/chat/ChatActivity.java" />
+    </issue>
+    <issue id="CutPasteId">
+        <ignore path="src/com/example/chat/GuideGeneralDetailsFragment.java" />
+    </issue>
+    <issue id="InflateParams" severity="ignore" />
+</lint>

@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listView_spot"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:orientation="vertical"
+	    android:background="@color/button_back">	
+		
+		<Button
+	    	android:id="@+id/button_create"
+	    	android:layout_width="match_parent"
+	 		android:layout_height="wrap_content"
+	 		android:layout_margin="3dp"
+	 		android:background="@color/button_back"
+	   		android:text="選んだスポットでルートを作成"/>
+		
+	</LinearLayout>
+
+</LinearLayout>

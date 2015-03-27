@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="underline"><u>webページを見る</u></string>
+    
+    <color name="back_color">#f0f0f0</color>
+    <color name="base_color">#f0f0f0</color>
+    <color name="balloon_color2">#98fb98</color>
+    
+    <color name="back">#f0f8ff</color>
+    <color name="button">#99303030</color>
+    <color name="button_pressed">#d3d3d3</color>
+    <color name="button_stroke">#090909</color>
+    <color name="button_back">#d3d3d3</color>
+    
+    <color name="chat_menu_text">#303030</color>
+    <color name="line_selected">#7FC2C6</color>
+    <color name="line_unselected">#00ffffff</color>
+    
+    <color name="route_hotel">#ff7f50</color>
+    <color name="route_spot">#8fbc8f</color>
+    <color name="route_gourmet">#f0e68c</color>
+    
+    
+    <!-- しおりタブ-->
+    <color name="guide_tab_back_sp">#ffc0cb</color>
+    <color name="guide_tab_divider_sp">#2e8b57</color>
+    <color name="guide_tab_line_sp">#90ee90</color>
+    <color name="guide_tab_open_button_sp">#f08080</color>
+    <color name="guide_tab_open_text_sp">#ff4500</color>
+    
+    <color name="guide_tab_back_su">#87ceeb</color>
+    <color name="guide_tab_divider_su">#708090</color>
+    <color name="guide_tab_line_su">#ff6347</color>
+    <color name="guide_tab_open_button_su">#4169e1</color>
+    <color name="guide_tab_open_text_su">#ff6347</color>
+    
+    <color name="guide_tab_back_a">#d2b48c</color>
+    <color name="guide_tab_divider_a">#2e8b57</color>
+    <color name="guide_tab_line_a">#f4a460</color>
+    <color name="guide_tab_open_button_a">#8b0000</color>
+    <color name="guide_tab_open_text_a">#ff8c00</color>
+    
+    <color name="guide_tab_back_w">#2f4f4f</color>
+    <color name="guide_tab_divider_w">#2e8b57</color>
+    <color name="guide_tab_line_w">#8b0000</color>
+    <color name="guide_tab_open_button_w">#008000</color>
+    <color name="guide_tab_open_text_w">#dc143c</color>
+
+</resources>
